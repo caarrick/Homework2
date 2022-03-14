@@ -14,6 +14,10 @@ import numpy as np
 import statsmodels.formula.api as sm # module for stats models
 from statsmodels.iolib.summary2 import summary_col # module for presenting stats models outputs nicely
 
+# %%
+!pip3 install pandas_datareader
+
+
 
 # %%
 def price2ret(prices,retType='simple'):
