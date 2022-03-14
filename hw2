@@ -15,7 +15,7 @@ import statsmodels.formula.api as sm # module for stats models
 from statsmodels.iolib.summary2 import summary_col # module for presenting stats models outputs nicely
 
 # %%
-!pip3 install pandas_datareader
+!pip3 install pandas-datareader
 
 
 
@@ -165,3 +165,6 @@ print(xlsfile)
 
 # %% output model
 df_regOutput.to_excel(xlsfile)
+
+# %%
+gg=assetPriceReg(df_stk)
