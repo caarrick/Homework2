@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
-
-# To add a new cell, type '# %%'
-# To add a new markdown cell, type '# %% [markdown]'
 # %%
 import pandas as pd
 import numpy as np 
@@ -107,7 +98,7 @@ df_stk = pd.read_csv("C:/Users/caarrick/datasets/stocks/df_stk_.csv")
 df_stk.head()
 
 # %%
-stkName = 'WMT'
+stkName = 'ULTA'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
@@ -123,7 +114,7 @@ df_stk = pd.read_csv("C:/Users/caarrick/datasets/stocks/df_stk_3.csv")
 df_stk.head() 
 
 # %%
-stkName = 'Ulta'
+stkName = 'WMT'
 fileName = 'stk_' + stkName + '.csv'
 readFile = fullDir+fileName 
 
@@ -168,3 +159,7 @@ df_regOutput.to_excel(xlsfile)
 
 # %%
 gg=assetPriceReg(df_stk)
+
+# %%
+stocks = list("KHC, ULTA, TGT, WMT, GIS")
+print(stocks)
