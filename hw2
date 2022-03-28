@@ -161,5 +161,6 @@ df_regOutput.to_excel(xlsfile)
 gg=assetPriceReg(df_stk)
 
 # %%
-stocks = list("KHC, ULTA, TGT, WMT, GIS")
+stocks = ["KHC, ULTA, TGT, WMT, GIS"]
+for stocks in stocks
 print(stocks)
